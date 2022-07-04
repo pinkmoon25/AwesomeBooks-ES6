@@ -26,6 +26,6 @@ const navigation = () => {
     bookForm.classList.add('hide');
     listSection.classList.add('hide');
   });
-}
+};
 
-export {navigation}
+export default navigation;

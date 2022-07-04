@@ -1,6 +1,6 @@
-import { Book } from './modules/booklist.js'
-import { navigation } from './modules/navlink.js'
-import { success } from './modules/success.js'
+import Book from './modules/booklist.js';
+import navigation from './modules/navlink.js';
+import success from './modules/success.js';
 import { luxon } from './modules/luxon.js';
 
 const title = document.getElementById('title');
@@ -29,6 +29,6 @@ navigation();
 
 const span = document.querySelector('.date');
 
-let dateTime = luxon.DateTime;
+const dateTime = luxon.DateTime;
 
-span.textContent = `${dateTime.now().toLocaleString(dateTime.DATETIME_MED)}`
+span.textContent = `${dateTime.now().toLocaleString(dateTime.DATETIME_MED)}`;
