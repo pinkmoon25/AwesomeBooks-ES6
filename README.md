@@ -5,7 +5,7 @@ You can add favourite books, or books you'd like to read, you can create a book 
 
 # Project Name : Awesome Books ♻️
 
-![screenshot}](./assets/Booklist2.png)
+![screenshot}](./screenshot/Screenshot.png)
 
 
 ## Built With
@@ -17,7 +17,7 @@ You can add favourite books, or books you'd like to read, you can create a book 
 
 ## Live Demo link
 
-[Live Demo Link](https://PinkMoon25.github.io/books-website/)
+[Live Demo Link](https://pinkmoon25.github.io/AwesomeBooks-ES6/)
 
 
 To get a local copy up and running follow these simple example steps.
