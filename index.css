@@ -137,6 +137,11 @@ input[name] {
   border-radius: 4px;
 }
 
+small {
+  font-weight: 600;
+  color: lightgreen;
+}
+
 .address-list {
   display: block;
   list-style-type: disc;
