@@ -1,3 +1,5 @@
+const bookList = document.querySelector('.book');
+
 class Book {
   constructor(title, author, id) {
     this.title = title;

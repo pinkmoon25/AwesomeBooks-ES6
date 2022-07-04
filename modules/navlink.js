@@ -1,3 +1,9 @@
+const list = document.querySelector('.list');
+const addNew = document.querySelector('.add-new');
+const contact = document.querySelector('.contact');
+const listSection = document.querySelector('.booklist');
+const bookForm = document.querySelector('.form');
+const contactSection = document.querySelector('.contact-info');
 
 const navigation = () => {
   bookForm.classList.add('hide');
