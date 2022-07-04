@@ -8528,8 +8528,10 @@ var luxon = (function (exports) {
   exports.Zone = Zone;
 
   Object.defineProperty(exports, '__esModule', { value: true });
-
   return exports;
 
 })({});
+
+export {luxon}
+
 //# sourceMappingURL=luxon.js.map
