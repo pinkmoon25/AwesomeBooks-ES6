@@ -2,11 +2,18 @@
   "name": "booklist-es6",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "index.cjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "luxon": "^2.4.0"
+  },
+  "devDependencies": {
+    "hint": "^7.0.1"
+  }
 }
