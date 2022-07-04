@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+header {
+  background-color: rebeccapurple;
+  color: #fff;
+}
+
+nav {
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 4.5vw;
+  list-style-type: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+ul > li:hover {
+  transition: 0.3s ease;
+  transform: scale(1.1) skew(10deg);
+  border-bottom: 1px solid rebeccapurple;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.booklist,
+.form,
+.contact-info {
+  height: 80vh;
+}
+
+h1 {
+  padding: 16px 0;
+  font-size: 36px;
+  color: rebeccapurple;
+}
+
+h1 > i {
+  padding-left: 8px;
+}
+
+.book {
+  width: 80vw;
+  border: 2px solid cadetblue;
+  margin: auto;
+}
+
+.line-break {
+  margin: 5% auto 0 auto;
+  width: 8vw;
+  border: none;
+  border-bottom: 2px solid rebeccapurple;
+}
+
+footer > p {
+  margin: 0;
+}
+
+.new-book {
+  margin: auto;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.new-book:nth-child(odd) {
+  background-color: skyblue;
+}
+
+.remove {
+  padding: 5px 8px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.form,
+.contact-info {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  padding: 0 12px;
+  flex-direction: column;
+}
+
+#add-book {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  align-items: center;
+}
+
+#add {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  background-color: rebeccapurple;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+input[name] {
+  width: 100%;
+  padding: 1vw;
+  border: 2px solid rebeccapurple;
+  border-radius: 4px;
+}
+
+.address-list {
+  display: block;
+  list-style-type: disc;
+}
+
+.address-list > li {
+  text-align: start;
+}
+
+.contact-info > p {
+  text-align: start;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 12px 0;
+  color: #fff;
+}
+
+i {
+  font-size: larger;
+  transition: all 0.35s ease;
+}
+
+i:hover {
+  transform: rotate(360deg);
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  h3, ul {
+    font-size: small;
+  }
+  h1 {
+    font-size: 26px;
+  }
+
+  .book {
+    width: 90vw;
+  }
+
+  .new-book {
+    padding: 6px 8px;
+    font-size: 15px;
+  }
+
+  .remove {
+    padding: 3px 6px;
+  }
+}
