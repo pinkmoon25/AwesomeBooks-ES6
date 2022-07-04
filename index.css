@@ -28,6 +28,10 @@ ul {
   transition: all 0.3s ease;
 }
 
+.address-list > li {
+  text-align: start;
+}
+
 ul > li:hover {
   transition: 0.3s ease;
   transform: scale(1.1) skew(10deg);
@@ -62,6 +66,11 @@ h1 {
   padding: 16px 0;
   font-size: 36px;
   color: rebeccapurple;
+}
+
+i {
+  font-size: larger;
+  transition: all 0.35s ease;
 }
 
 h1 > i {
@@ -154,10 +163,6 @@ small {
   list-style-type: disc;
 }
 
-.address-list > li {
-  text-align: start;
-}
-
 .contact-info > p {
   text-align: start;
 }
@@ -171,11 +176,6 @@ footer {
   color: #fff;
 }
 
-i {
-  font-size: larger;
-  transition: all 0.35s ease;
-}
-
 i:hover {
   transform: rotate(360deg);
 }
@@ -185,9 +185,12 @@ i:hover {
 }
 
 @media screen and (max-width: 576px) {
-  h3, ul, .date {
+  h3,
+  ul,
+  .date {
     font-size: small;
   }
+
   h1 {
     font-size: 26px;
   }
