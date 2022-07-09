@@ -31,7 +31,7 @@ To get a working local copy up and running follow these simple steps
 
 
 ```
-$ git clone https://github.com/PinkMoon25/books-website.git
+$ git clone git@github.com:PinkMoon25/AwesomeBooks-ES6.git
 ```
 - Finally, run the next command in the terminal to see the web app in your local browser, or also, you can use Live Server in Visual Studio Code.
 ```
