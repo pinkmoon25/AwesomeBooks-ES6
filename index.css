@@ -31,7 +31,7 @@ ul {
 ul > li:hover {
   transition: 0.3s ease;
   transform: scale(1.1);
-  border-bottom: 1px solid rebeccapurple;
+  border-bottom: 1px solid floralwhite;
 }
 
 a {
